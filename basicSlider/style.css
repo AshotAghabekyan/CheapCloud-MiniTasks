@@ -1,0 +1,61 @@
+html, body {
+    margin:0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+main #sliders {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main #slider {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: 50vh;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main #controlPanel {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main #controlPanel button {
+    width: 30%;
+    height: 100%;
+    margin: 5%;
+    background-color: rgb(255, 241, 111);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 18px;
+    border-color: gray;
+    transition: 0.4s;
+}
+
+main #controlPanel button:hover {
+    background-color: gray;
+    color: white;
+}
