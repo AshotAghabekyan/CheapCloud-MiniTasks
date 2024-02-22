@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,36 @@
 <body>
     <main>
         <div id="sliders">
-            <div id="slider"></div>
+            <area id="slider"></area>
             <div id="controlPanel">
                 <button id="previous">Previous</button>
                 <button id="next">Next</button>
             </div>
         </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Slider</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <main>
+        <figure aria-label="Image Slider" ariahidd>
+            <img id="sliderImage" alt="Slider Image" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg">
+            <div id="controlPanel" aria-hidden="true">
+                <button id="previous" aria-label="Previous Image">Previous</button>
+                <button id="next" aria-label="Next Image">Next</button>
+            </div>
+        </figure>
     </main>
     <script src="./script.js"></script>
 </body>
