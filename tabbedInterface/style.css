@@ -1,0 +1,69 @@
+
+
+body, html {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+main #buttonContainer {
+    width: 30%;
+    height: 50px;
+}
+
+main #addElementBtn {
+    width: 100%;
+    height: 100%;
+    background-color:#eaeaea;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 3px;
+    font-size: 18px;
+    margin: 5%;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#mainContainer .elemBlock {
+    width: 40%;
+    max-height: 30vh;
+    margin: 2%;
+}
+
+#mainContainer .blockBackground {
+    width: 100%;
+    height: 30vh;
+    font-size: 18px;
+    color: #eaeaea;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 10px;
+    border-color: gray;
+    border-style: solid;
+}
+
+
+
+
