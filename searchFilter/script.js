@@ -43,32 +43,6 @@ class FilterByTitle {
 }
 
 
-// class Display {
-//     #contentDiv
-//     constructor(contentDiv) {
-//         this.#contentDiv = contentDiv;
-//     };
-
-//     show(books, searchTerm) {
-//         if (books.length  == 0) {
-//             return console.log("books not found")
-//         }
-
-//         this.#contentDiv.innerHTML = "";
-//         for (let i = 0; i < books.length; ++i) {
-//             let bookDiv = document.createElement("div");
-//             bookDiv.className = "book";
-//             bookDiv.innerHTML = `
-//                             <h2 style="color: red">${books[i].title}</h2>
-//                             <p>author: ${books[i].author}</p>
-//                             <p>publishing year: ${books[i].year}</p>
-//                             <p>id: ${books[i].id}</p>`;
-//             this.#contentDiv.append(bookDiv);
-//         }
-//     }
-// }
-
-
 
 class Display {
     #contentDiv
